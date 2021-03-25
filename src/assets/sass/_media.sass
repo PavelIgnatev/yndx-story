@@ -1,0 +1,732 @@
+@media (min-width: 669px) and (max-width:  2048px) 
+    .Activity 
+        .day__wrapper__center 
+            top: calc(50% + 50px)
+            transform: translate(-50%, -50%) scale(1.3)
+    .Diagram
+        top: 50% !important
+        transform: translate(-50%, -50%) scale(1.1) !important
+@media (min-width: 1024px)
+    .Diagram
+        transform: translate(-50%, -50%) scale(1.3) !important
+    .Activity 
+        .day__wrapper__center 
+            transform: translate(-50%, -50%) scale(1.6)
+@media (min-width: 475px)
+    .userplace-template:nth-child(3)
+        bottom: 0 !important
+        height: 100% !important
+@media (max-width: 768px)
+    .template-title
+        font-size: 40px
+    .template-subtitle 
+        font-size: 18px
+@media (max-width: 669px)
+    .template-title
+        font-size: 30px
+        padding-top: 20px
+        margin-bottom: 8px
+    .template-subtitle 
+        font-size: 16px
+    .leaders-user
+        &:nth-child(5),  &:nth-child(4)
+             bottom: -30%
+        &:nth-child(2),  &:nth-child(3)
+             bottom: -15%
+@media (max-height: 475px)
+    .leaders-wrapper__users
+        flex-grow: 0.7
+    .leaders-user
+        &:nth-child(5),  &:nth-child(4)
+             bottom: -25%
+        &:nth-child(2),  &:nth-child(3)
+             bottom: -12.5%
+@media (max-height: 377px)
+    .leaders-wrapper__users
+        flex-grow: 1
+    .leaders-user
+        &:nth-child(5),  &:nth-child(4)
+             bottom: -25%
+        &:nth-child(2),  &:nth-child(3)
+             bottom: -12.5%
+@media ( max-width:  567px)
+    .Activity__description
+        padding-bottom: 24px
+    .mobile, .item__text_mobile
+        display: block !important
+    .desktop, .item__text_desktop
+        display: none !important
+    .day
+        &__wrapper__center
+            width: 328px !important
+            height: 438px !important
+            top: 128px !important
+            .day
+                display: block
+                height: 100% !important
+                width: 43.74px !important
+                top: 0
+                &:nth-child(2)
+                    left: 43.74px
+                &:nth-child(3)
+                    left: 87.48px
+                &:nth-child(4)
+                    left: 131.22px
+                &:nth-child(5)
+                    left: 174.96px
+                &:nth-child(6)
+                    left: 218.7px
+                &:nth-child(7)
+                    left: 262.44px              
+            .day__hour
+                width: 43.73px
+                height: 43.73px
+                img
+                    width: 43.73px
+            .day__hour_wrapper
+                &:nth-child(even)
+                    left: 23px
+                    
+        &:nth-child(even)
+            left: auto
+        &__hour
+            bottom: auto
+            &:nth-child(even)
+                left: 17px
+            img
+                display: block
+                position: absolute
+                bottom: 0
+                width: 34px
+        .Activity__description
+            width: 320px
+@media (max-width: 667px)
+    .theme_light
+        .leaders-wrapper__users
+            .user-selected
+                .user
+                    &-line
+                        display: block !important
+                        background: #261C00 !important
+                    &-place
+                        display: block !important
+                        color: #261C00 !important
+                    &-value
+                        color: #261C00 !important
+    .template-title
+        padding: 20px 65px 0 65px
+    .template-subtitle 
+        padding-left: 24px
+        padding-right: 24px
+    .leaders-wrapper__place, .leaders-wrapper__users
+        width: 320px
+    .userplace-template
+        &:nth-child(1), &:nth-child(5) 
+            display: none !important
+        &:nth-child(2)
+            height: calc(77% + 1px)
+            left: -4px     
+        &:nth-child(3)
+            left: 100px   
+            height: calc(80% + 2px)
+            bottom: 86px
+        &:nth-child(4)
+            left: 204px 
+            height: calc(89% - 1.047px)
+    .leaders-wrapper__users
+        .user-template
+            &:nth-child(5),&:nth-child(4)
+                display: none
+            &:nth-child(1)
+                left: 50%
+                transform: translateX(-50%)
+            &:nth-child(2)
+                bottom: -21%
+                left: 220px
+            &:nth-child(3)
+                left: -4px
+                bottom: -42%
+                
+        .user-selected
+                position: absolute
+                bottom: -110% !important
+                z-index: 1000
+                left: 107px !important
+                display: block !important
+                .leaders-value_dark
+                    color: #FCFBF7 !important
+                .leaders-value_light
+                    color: #261C00 !important
+                .user
+                    &-line
+                        width: 60px
+                        height: 1px
+                        left: 158px
+                        top: 613px
+                        background: #261C00
+                        margin: 0 auto
+                        margin-top: 9px
+                        margin-bottom: 6px
+                        display: block !important
+                        background: #918F8A
+                    &-place
+                        font-size: 30px
+                        line-height: 32px
+                        text-align: center
+                        color: #261C00
+                        font-weight: 700 !important
+                        display: block !important
+                        color: #FCFBF7 
+    .vote
+        .user-template
+            left: 50px !important
+            top: 50% !important
+            transform: translate(-50%, -50%)
+            position: absolute  
+            &:nth-child(2)
+                left: 50% !important
+                z-index: 100
+                top: 48% !important
+            &:nth-child(5)
+                top: 70% !important
+                left: 50% !important
+                z-index: 100
+            &:nth-child(1)
+                top: 40% !important
+                left: 20% !important
+                z-index: 100
+            &:nth-child(3)
+                top: 40% !important
+                left: 80% !important
+                z-index: 100
+            &:nth-child(4)
+                top: 60% !important
+                left: 20% !important
+                z-index: 100
+            &:nth-child(6)
+                top: 60% !important
+                left: 80% !important
+                z-index: 100
+            &:nth-child(7)
+                top: 80% !important
+                left: 20% !important
+                z-index: 100 
+            &:nth-child(8)
+                top: 80% !important
+                left: 80% !important
+                z-index: 100    
+        &-button__wrapper
+            margin-top: 60px
+            height: 70vh
+@media (max-width: 377px)
+    .template-title, .template-subtitle, .item__text 
+        text-align: left
+        justify-content: flex-start !important
+    .template-title
+        padding: 20px 52px 0 24px 
+    .leaders-wrapper__users
+        flex-grow: 0.54
+    .user-selected
+        bottom: -132% !important
+
+
+@media (max-width: 667px) and (max-height: 460px)
+    .leaders-wrapper__users
+        .user-selected 
+            display: none !important
+
+@media (max-width: 568px) and (max-height: 320px)
+        .leaders-wrapper__users
+            flex-grow: 0.6 !important
+        .template-title
+            font-size: 26px !important
+            padding: 20px 20px 0 20px
+        .userplace-place
+            top: 8px
+            
+        .user-template:nth-child(2)
+            bottom: -30%
+        .user-template:nth-child(3)
+            bottom: -30% !important
+        .user-template:nth-child(1)
+            bottom: -5%
+
+@media (max-height: 360px)
+    .day__wrapper
+            padding-bottom: 20px !important
+@media (max-height: 320px)
+    .day__wrapper
+            padding-bottom: 10px !important
+@media (max-width: 1015px) and (max-height: 414px)
+    .userplace-template
+        &:nth-child(5), &:nth-child(1)
+            line-height: 10px
+@media (max-width: 320px) and (max-height: 568px)
+    .Diagram
+        height: 465px !important
+        &__wrapper
+            width: 260px !important
+            height: 260px  !important
+            margin: 0 auto
+            svg
+                width: 260px !important
+                height: 260px !important
+        &__totalText
+            top: 80px !important
+            font-size: 24px !important
+            line-height: 24px !important
+        &__differenceText 
+            width: 200px
+            top: 140px !important
+            font-size: 18px !important
+            line-height: 21px !important
+        &__category
+            width: 310px !important
+            padding: 0 !important 
+            margin: 0 auto
+            .Diagram-category
+                width: 310px !important
+                margin: 0 auto
+    .vote
+        .user-template
+            width: 100px
+            &:nth-child(7),&:nth-child(8)
+                top: 87% !important
+            &:nth-child(4), &:nth-child(6)
+                top: 63% !important  
+            &:nth-child(5)
+                top: 72.5% !important
+        .vote-button__wrapper
+            height: 74vh
+@media (max-width: 668px)
+    .template-subtitle
+        height: 18px
+        display: flex
+        align-items: center
+        justify-content: center
+@media (max-width: 320px) and (max-height: 668px)
+    .Activity
+            padding: 0 !important
+            padding-top: 38px !important
+            padding-bottom: 24px !important
+            .Activity-item
+                width: 50px !important
+            .item__example
+                width: 50px !important
+            &__description
+                width: 300px !important   
+@media (max-width: 668px) and (max-height: 376px)
+    .vote
+        &-button__wrapper
+            top: 60%
+            height: 250px
+        .user-template
+            &:nth-child(1)
+                left: 20%
+                top: 60%
+            &:nth-child(4)
+                left: 80%
+                top: 60%
+            &:nth-child(2), &:nth-child(5)
+                left: 36%
+            &:nth-child(2), &:nth-child(3)
+                top: 45%
+            &:nth-child(5)
+                top: 80%
+            &:nth-child(3), &:nth-child(6)
+                left: 64% !important
+            &:nth-child(6)
+                top: 80%
+
+@media (max-width: 736px) and (max-height: 414px)
+    .leaders-wrapper__users 
+        flex-grow: 0.65
+    .vote
+        &-button__wrapper
+            top: 65% 
+        .user-template
+            &:nth-child(1)
+                left: 15% !important
+                top: 60% !important
+            &:nth-child(4)
+                left: 85% !important
+                top: 60% !important
+            &:nth-child(2), &:nth-child(5)
+                left: 33% !important
+            &:nth-child(2), &:nth-child(3)
+                top: 45% !important
+            &:nth-child(5)
+                top: 80% !important
+            &:nth-child(3), &:nth-child(6)
+                left: 67% !important
+            &:nth-child(6)
+                top: 80% !important
+
+@media (max-width: 366px)
+    .Diagram
+        justify-content: space-between
+        padding-top: 0
+        &__category
+            padding-top: 0
+@media (max-width: 320px)
+    .userplace-template
+        &:nth-child(2)
+            left: 0 !important
+        &:nth-child(4)
+            left: 200px 
+@media (max-width: 568px) and (max-height: 320px)
+    .vote
+        .user-template
+            &:nth-child(5),&:nth-child(6),&:nth-child(7),&:nth-child(8)
+                display: none !important
+            &:nth-child(1)
+                top: 40% !important
+                left: 20% !important
+            &:nth-child(4)
+                top: 80% !important
+                left: 80% !important
+                z-index: 100
+            &:nth-child(2)
+                top: 40% !important
+                left: 80% !important
+                z-index: 100
+            &:nth-child(3)
+                top: 80% !important
+                left: 20% !important
+                z-index: 100
+        .vote-button__wrapper
+                margin-top: 0!important
+                height: 65vh !important
+@media (max-width: 1024px) and (max-height: 1024px)
+    .vote
+        .user-template
+            &:nth-child(1)
+                left: 22%
+            &:nth-child(4)
+                left: 78%
+            &:nth-child(2), &:nth-child(5)
+                left: 37%
+            &:nth-child(3), &:nth-child(6)
+                left: 63%
+@media (max-width: 376px) and (max-height: 668px)
+    .leaders-wrapper__users 
+        .user-selected 
+            bottom: -130% !important
+@media ( max-width:  567px)
+    .bobber
+        &:nth-child(1), &:nth-child(2), &:nth-child(3)
+            display: none
+    .chart-pillars
+        padding-left: 0
+        transform: translateX(-8px)
+    .chart-user__wrapper
+        margin-bottom: 24px !important
+        flex-direction: column
+    .chart 
+        .chart-container
+            align-items: flex-end
+        .user-template 
+            margin: 0 !important 
+            left: 24px !important
+            width: calc(100% - 48px)
+            &:nth-child(1)
+                top: 24px   
+                &:after
+                    width: 100%
+                    height: 2px
+                    bottom: -18px
+                    left: 0
+                    background: #BFBFBF !important
+            &:nth-child(2)
+               top: 98px !important
+    .chart-user__wrapper
+        width: 100vw !important
+        height: 162px !important
+        margin: 0 !important
+    .chart-pillars
+        padding: 0
+        padding-right: 16px
+        padding-bottom: 30px
+        height: 70%
+
+@media (max-height: 668px) and (max-width: 376px)
+    .leaders-wrapper__users
+        .user-selected
+            bottom: calc(-276px + 0.23px) !important
+            .user-value 
+                color: #FCFBF7 !important
+        .user-template
+            &:nth-child(1)
+                left: 108px !important
+                transform: translateX(0) !important
+                bottom: 0.77px !important
+        .user-selected
+            left: 108px !important
+            transform: translateX(0) !important
+@media (max-width: 667px)
+    .vote__mobile 
+        display: block !important
+    .vote__desktop
+        display: none !important
+
+
+@media (min-width: 667px) and (max-width: 668px)
+    .template-wrapper
+        height: calc(100vh - 104px) !important
+    .leaders-wrapper__users
+        flex-grow: 1.386
+    .userplace-place
+        width: 20px
+        height: 32px
+        display: flex
+        justify-content: center
+        align-items: center
+    .userplace-template
+        &:nth-child(2), &:nth-child(4)
+            height: 82.46%
+            top: 18px
+        &:nth-child(1), &:nth-child(5)
+            height: 64.925%
+    .userplace-template
+        &:nth-child(1)
+            left: 0
+        &:nth-child(2) 
+            left: 104px
+        &:nth-child(3) 
+            left: 208px
+        &:nth-child(4) 
+            left: 312px
+        &:nth-child(5) 
+            left: 416px
+    .vote, .leaders-wrapper__users
+        .user-template
+            &:nth-child(1)
+                left: 50% 
+                transform: translateX(-50%)
+            &:nth-child(3)
+                left: 104px   
+            &:nth-child(2)
+                left: 328px 
+            &:nth-child(4)
+                left: 432px 
+    .leaders-wrapper__place, .leaders-wrapper__users
+        width: 536px
+
+    .vote
+        .user-template
+            transform: translate(0) !important
+            &:nth-child(1)
+                left: 31px !important
+                top: auto !important
+                bottom: 78px !important
+            &:nth-child(2)
+                left: 167px !important
+                top: 83px !important
+            &:nth-child(3)
+                top: 83px !important
+                left: 397px !important
+            &:nth-child(4)
+                top: auto !important
+                bottom: 78px !important
+                left: 532px !important
+            &:nth-child(5)
+                top: 229px !important
+                left: 167px !important
+            &:nth-child(6)
+                top: 229px !important
+                left: 397px !important
+        .vote-button__wrapper
+            position: static
+            transform: translateX(-100px)
+        .vote-button__up_wrapper
+            position: absolute
+            left: 402px
+            top: 135px
+        .vote-button__down_wrapper
+            position: absolute
+            left: 402px
+            top: 255px
+@media (max-width: 568px)
+    .vote-button__down_wrapper
+        margin-bottom: 40px
+    .vote
+        .user-template
+            transform: translate(0) !important
+            &:nth-child(1)
+                left: 15px !important
+            &:nth-child(2)
+                left: 129px !important
+            &:nth-child(3)
+                right: 129px !important
+                top: 40% !important
+                left: auto !important
+            &:nth-child(4)
+                right: 15px !important
+                top: 40% !important
+@media (min-width: 320px) and (max-width: 568px)
+    .vote
+        .vote-button__wrapper
+            display: block
+            width: 100vw
+            height: 100vh
+            transform: translate(0)
+            margin-top: 0
+            position: relative
+            top: 0
+            left: 0
+        .vote-button__up_wrapper
+            position: absolute
+            left: 50% !important
+            transform: translateX(-50%) !important
+            top: 165px !important
+        .vote-button__down_wrapper
+            position: absolute
+            left: 50% !important
+            transform: translateX(-50%) !important
+            top: 581px !important
+        .user-template
+            transform: translate(0) !important
+            &:nth-child(1)
+                left: 24px !important
+                top: 167px !important
+            &:nth-child(3)
+                right: 24px !important
+                left: auto !important
+                top: 167px !important
+            &:nth-child(2)
+                left: 50% !important
+                transform: translateX(-50%) !important
+                top: 252px !important
+            &:nth-child(4)
+                left: 24px !important
+                top: 334px !important
+            &:nth-child(5)
+                left: 50% !important
+                transform: translateX(-50%) !important
+                top: 416px !important
+            &:nth-child(6)
+                right: 24px !important
+                left: auto !important
+                top: 334px !important
+            &:nth-child(7)
+                left: 24px !important
+                top: 501px !important
+            &:nth-child(8)
+                right: 24px !important
+                left: auto !important
+                top: 501px !important
+@media (max-width: 320px) and (max-height: 568px)
+
+    .vote
+        .vote-button__up_wrapper
+            top: 135px !important
+        .vote-button__down_wrapper 
+            margin-bottom: 0
+            top: auto !important
+            bottom: 5px !important
+        .user-template
+            &:nth-child(1)
+                left: 10px !important
+                top: 150px !important
+            &:nth-child(2)
+                top: 205px !important
+                left: 50% !important
+                transform: translateX(-50%) !important
+            &:nth-child(3)
+                left: auto !important
+                right: 10px !important
+                top: 150px !important
+            &:nth-child(4)
+                left: 10px !important
+                top: 290px !important
+            &:nth-child(5)
+                top: 345px !important
+                left: 50% !important
+                transform: translateX(-50%) !important
+            &:nth-child(6)
+                right: 10px !important
+                top: 290px !important
+                left: auto !important
+            &:nth-child(7)
+                top: auto !important
+                left: 10px !important
+                bottom: 0 !important
+            &:nth-child(8)
+                right: 10px !important
+                left: auto !important
+                top: auto !important
+                bottom: 0 !important
+@media (max-width: 568px) and (max-height: 320px)
+    .vote
+        .vote-button__up_wrapper
+            top: 45% !important
+        .vote-button__down_wrapper
+            top: 100% !important
+            margin-bottom: 0
+        .user-template
+            &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4)
+                top: 60%  !important
+                transform: translateY(-50%) !important
+            &:nth-child(2)
+                left: 125px !important
+            &:nth-child(3)
+                left: auto !important
+                right: 125px !important
+            &:nth-child(4)
+                left: auto !important
+                right: 24px !important
+@media (max-width: 320px) and (max-height: 568px)
+    .leaders-wrapper__users .user-selected
+            bottom: calc(-217px + 0.23px) !important 
+    .Activity
+        .day__wrapper__center
+            top: 40px !important
+            transform: translateX(-50%) scale(0.7) !important
+@media (max-width: 568px) and (max-height: 320px)
+    .day__wrapper__center
+        top: 100px !important
+        transform: translateX(-50%) scale(0.8) !important
+@media ( max-width: 620px)
+    .Diagram
+        top: 55%
+        overflow: hidden !important
+        width: 100% 
+        height: 220px
+        justify-content: space-around
+        &__wrapper
+            width: 220px
+            height: 220px 
+            svg
+                width: 220px 
+                height: 220px
+        &__totalText
+            top: 67px
+        &__differenceText
+            top: 117px
+            width: 200px
+@media (max-width: 567px)
+    .diagram_light, .diagram_dark 
+        width: 328px !important
+        height: 328px !important
+    .Diagram
+        top: 110px
+        width: 328px
+        height: 568px
+        display: flex
+        transform: translateX(-50%)
+        flex-direction: column
+        &__wrapper
+            width: 328px 
+            height: 328px
+        &__totalText
+            top: 106px
+            font-size: 30px
+            line-height: 32px
+        &__differenceText
+            top: 178px
+            font-size: 20px
+            line-height: 22px
+        &-category
+            width: 328px
+        &__category
+            padding: 16px 0
